@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SkillFactory\\C#\\M26.HTML\\LifeSpot\\LifeSpot.csproj": {}
+    "C:\\SkillFactory\\C#\\M26.HTML\\M26.HTML\\LifeSpot\\LifeSpot.csproj": {}
   },
   "projects": {
-    "C:\\SkillFactory\\C#\\M26.HTML\\LifeSpot\\LifeSpot.csproj": {
+    "C:\\SkillFactory\\C#\\M26.HTML\\M26.HTML\\LifeSpot\\LifeSpot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SkillFactory\\C#\\M26.HTML\\LifeSpot\\LifeSpot.csproj",
+        "projectUniqueName": "C:\\SkillFactory\\C#\\M26.HTML\\M26.HTML\\LifeSpot\\LifeSpot.csproj",
         "projectName": "LifeSpot",
-        "projectPath": "C:\\SkillFactory\\C#\\M26.HTML\\LifeSpot\\LifeSpot.csproj",
+        "projectPath": "C:\\SkillFactory\\C#\\M26.HTML\\M26.HTML\\LifeSpot\\LifeSpot.csproj",
         "packagesPath": "C:\\Users\\LEGION 5\\.nuget\\packages\\",
-        "outputPath": "C:\\SkillFactory\\C#\\M26.HTML\\LifeSpot\\obj\\",
+        "outputPath": "C:\\SkillFactory\\C#\\M26.HTML\\M26.HTML\\LifeSpot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
