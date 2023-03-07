@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <title>LifeSpot</title>
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css" />
+    <script>
+        userAge = prompt('Укажите свой возраст ');
+        if (userAge >= 18) {
+            curDate = new Date().toLocaleString();
+            alert('Приветствуем на LifeSpot! ' + curDate);
+        } else {
+            alert('Наш сайт только для лиц старше 18 лет! Вы будете перенаправлены');
+            window.location.href = "http://www.google.com";
+        }
+    </script>
 </head>
 
 <header id="header-index">
@@ -11,11 +21,10 @@
         <!--Заголовок страницы-->
         <h1>LifeSpot — прямые трансляции с улиц</h1>
 
-        <input type="text" size=71% title="поле для поиска видео" />
-
         <!--Параграф-->
         <p>Покажем, что происходит прямо сейчас</p>
 
+        <input type="text" size=71% title="поле для поиска видео" />
     </div>
 </header>
 

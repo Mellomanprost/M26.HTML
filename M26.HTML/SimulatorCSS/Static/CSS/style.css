@@ -1,0 +1,147 @@
+﻿/*body {*/
+/*    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+*/
+    /*margin: 0;
+}
+
+.blue {
+    background-color: blue;
+    width: 100vw;
+    height: 50vh;
+}
+
+.red {
+    background-color: red;
+    min-width: 40px;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5rem;
+}
+
+p:nth-child(odd){
+    background-color: hsla(0, 0%, 70%, 1);
+    color: white;
+}
+
+p:nth-child(even) {
+    background-color: hsla(0, 0%, 30%, 1);
+    color: white;
+}
+
+html {
+    font-size: 16px;
+}
+
+.title-block {
+    font-size: 1.25em;
+}
+
+ul {
+    font-size: 2em;
+}*/
+
+/*h1 {
+    background-color: #F0BA7D;
+    margin: 25px;
+}
+
+h2 {
+    background-color: #CADADD;
+    width: 50vw;
+    margin: 50px auto;
+    padding: 10px 25px 20px;
+}*/
+
+/*.wrapper {
+    background-color: lightgray;
+    padding: 15px 5px;
+    height: 100vh;
+}
+
+.item {
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    display: block;
+}
+
+.item:nth-child(odd) {
+    margin-left: 50px;
+}
+
+.item:last-child {
+    position: fixed;
+    bottom: 5px;
+}
+
+.item:first-child {
+    background: red;
+    position: sticky;
+    top: 0px;
+}*/
+
+/*.pink {
+    width: 100%;
+    height: 200px;
+    background: pink;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+*/
+
+/*.blue {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    left: 0;
+    z-index: -1;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    padding: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    left: 0;
+}*/
+
+.wrapper {
+    display: flex;
+    background-color: lightgray;
+    align-items: flex-start;
+
+}
+
+.item {
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
