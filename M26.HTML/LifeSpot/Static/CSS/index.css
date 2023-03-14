@@ -13,7 +13,11 @@
     padding-top: 1%;
 }
 
-.navbar p{
+.video-title {
+    display: inline-block;
+}
+
+.navbar p {
     color: darkgray;
     padding-left: 15%;
 }
@@ -39,9 +43,9 @@ input {
     margin-bottom: 1%;
 }
 
-input:focus {
-    border: 2px solid pink;
-}
+    input:focus {
+        border: 2px solid pink;
+    }
 
 footer {
     position: absolute;

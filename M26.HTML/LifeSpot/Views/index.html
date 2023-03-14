@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <title>LifeSpot</title>
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css" />
-    <script src="../Static/JS/javaScript.js"></script>
+    <!--<script src="../Static/JS/javaScript.js"></script>-->
+    <script type="text/javascript" src="../Static/JS/index.js"></script>
+    <script>
+	    // handleSession();
+    </script>
 </head>
 
 <header id="header-index">
@@ -15,7 +19,7 @@
         <!--Параграф-->
         <p>Покажем, что происходит прямо сейчас</p>
 
-        <input type="text" size=71% title="поле для поиска видео" />
+        <input type="text" oninput="filterContent()" size=50%/>
     </div>
 </header>
 
@@ -33,36 +37,20 @@
     </aside>
 
     <div class="bordered">
-        <!--Кнопки, обернутые в ссылки-->
-        <!--<a href="https://www.youtube.com/watch?v=e3IGUhlmXMs"><button>Санкт-Петербург</button></a>
-        <a href="https://www.youtube.com/watch?v=srlpC5tmhYs"><button>Нью-Йорк</button></a>
-        <a href="https://www.youtube.com/watch?v=JplMzss6_YE"><button>Лондон</button></a>-->
         <div class="video-container">
             <iframe width="510" height="305" src="https://www.youtube.com/embed/e3IGUhlmXMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Санкт-Петербург</iframe>
-            <h3>Санкт-Петербург, Невский Проспект</h3>
+            <h3 class="video-title">Санкт-Петербург, Невский Проспект</h3>
         </div>
         <div class="video-container">
             <iframe width="510" height="305" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Нью-Йорк</iframe>
-            <h3>Нью-Йорк, Брайант Парк</h3>
+            <h3 class="video-title">Нью-Йорк, Брайант Парк</h3>
         </div>
         <div class="video-container">
-            <iframe width="510" height="305" src="https://www.youtube.com/embed/JUAG5l6D44c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Лондон</iframe>
-            <h3>Лондон, Сигнальная кабина Эппинг</h3>
+            <iframe width="510" height="305" src="https://www.youtube.com/embed/JplMzss6_YE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Лондон</iframe>
+            <h3 class="video-title">Лондон, автобусный маршрут</h3>
         </div>
 
     </div>
-    <!--<div>
-        <ul>
-            <li><a href="https://www.google.ru/" title="Google" target="myframe">Google</a></li>
-            <li><a href="https://yandex.com" target="myframe">Yandex</a></li>
-            <li><a href="https://duckduckgo.com/" target="myframe">DuckDuckGo</a></li>
-        </ul>
-        <iframe src="https://yandex.com" name="myframe"></iframe>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18809.033177810892!2d27.52720136266726!3d53.89390844798476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd00201136227%3A0xcd5894824f3bdada!2s4th%20City%20Clinical%20Hospital!5e0!3m2!1sen!2sby!4v1677574247186!5m2!1sen!2sby" width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-    </div>-->
 
 </body>
 
