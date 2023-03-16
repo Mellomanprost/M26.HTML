@@ -1,6 +1,6 @@
 ﻿// функция для получения пользовательского ввода
 const inputParseFunction = function () {
-    return document.getElementsByTagName('input')[0].value.toLowerCase()
+    return document.getElementsByTagName('input')[0].value.toLowerCase();
 };
 
 // объект Map для хранения сессии
