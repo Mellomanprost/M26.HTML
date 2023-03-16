@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <title>LifeSpot</title>
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css" />
-    <!--<script src="../Static/JS/javaScript.js"></script>-->
     <script type="text/javascript" src="../Static/JS/index.js"></script>
     <script>
-        // Проверка на возраст
-        checkAge();
+        //// Проверка на возраст
+        //checkAge();
 
         // сохранение сессии
         handleSession()
 
         // вывод данных сессии в консоль
         sessionLog();
+
+        setTimeout(() => alert('Нравится LifeSpot?\nПодпишитесь на наш Instagram ...'), 60000);
     </script>
 </head>
-
 <header id="header-index">
     <div>
         <!--Заголовок страницы-->
@@ -26,23 +26,11 @@
         <!--Параграф-->
         <p>Покажем, что происходит прямо сейчас</p>
 
-        <input type="text" oninput="filterContent()" size=50%/>
+        <input type="text" oninput="filterContent()" size=50% />
     </div>
 </header>
-
 <body>
-    <!--Сайд-бар страницы-->
-    <aside id="sidebar">
-        <div class="navbar">
-            <a href="/">
-                <p>Все трансляции</p>
-            </a>
-            <a href="/">
-                <p>О проекте</p>
-            </a>
-        </div>
-    </aside>
-
+    <!--SIDEBAR-->
     <div class="bordered">
         <div class="video-container">
             <iframe width="510" height="305" src="https://www.youtube.com/embed/e3IGUhlmXMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Санкт-Петербург</iframe>
@@ -60,11 +48,5 @@
     </div>
 
 </body>
-
-<footer>
-    <hr />
-    <p><em>LifeSpot</em> - все <i>права</i> защищены</p>
-    <p>Связаться с нами: contact@lifespot.ru</p>
-</footer>
-
+<!--FOOTER-->
 </html>

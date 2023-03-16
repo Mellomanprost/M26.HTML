@@ -48,7 +48,7 @@ input {
     }
 
 footer {
-    position: absolute;
+    position: center;
     bottom: 0;
     font-size: medium;
     color: dimgrey;
