@@ -1,11 +1,12 @@
-﻿// функция для получения пользовательского ввода
+﻿// объект Map для хранения сессии
+let session = new Map();
+
+// функция для получения пользовательского ввода
 const inputParseFunction = function () {
     return document.getElementsByTagName('input')[0].value.toLowerCase();
 };
 
-// объект Map для хранения сессии
-let session = new Map();
-
+// функция проверки возраста
 function checkAge() {
     // Запросим возраст пользователя и сохраним в переменную
     session.set('age', prompt('Укажите пожалуйста свой возраст: '));
@@ -19,6 +20,7 @@ function checkAge() {
     }
 }
 
+// функция записывающая информацию о сессии
 function handleSession() {
     // Сохраним UserAgent
     session.set('userAgent', window.navigator.userAgent);
@@ -26,14 +28,16 @@ function handleSession() {
     // Сохраним время начала сессии
     session.set('currentDate', new Date().toLocaleString());
 }
-/// Вывод данных сессии в консоль
+
+// Вывод данных сессии в консоль
 let sessionLog = function logSession() {
     for (let item of session) {
         console.log(item);
     }
 }
 
-function filterContent() {     // Принимаем пользовательский ввод в качестве параметра.
+// функция фильтрации поиска по пользовательскому вводу
+function filterContent() {
     // Находим контейнеры с видео, которые необходимо фильтровать
     let elements = document.getElementsByClassName('video-container');
 
